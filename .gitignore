@@ -17,3 +17,6 @@ coverage/
 
 # FVM Version Cache
 .fvm/
+
+dev.env
+.env
