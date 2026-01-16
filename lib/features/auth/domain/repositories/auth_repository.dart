@@ -8,12 +8,12 @@ abstract interface class AuthRepository {
     required String password,
   });
 
-  FutureEither<User> signin({
-    required String email,
-    required String password,
-  });
+  // FutureEither<User> signin({
+  //   required String email,
+  //   required String password,
+  // });
 
-  FutureEither<void> resetPassword({
-    required String email,
-  });
+  // FutureEither<void> resetPassword({
+  //   required String email,
+  // });
 }
