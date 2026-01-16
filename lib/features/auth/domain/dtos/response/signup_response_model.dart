@@ -1,6 +1,5 @@
+import 'package:clean_todo_api/core/typedefs/typedefs.dart';
 import 'package:equatable/equatable.dart';
-
-import '../../../../../core/typedefs/typedefs.dart';
 
 class SignupResponseModel extends Equatable {
   const SignupResponseModel({required this.id});
